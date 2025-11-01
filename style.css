@@ -313,4 +313,88 @@ body{
         padding-top:20px ;
     }
 
+
+} 
+@media(min-width:320px) and (max-width:375px){
+.left-container{
+    padding-inline: 10px;
+    padding-block: 20px;
+}
+
+.left-container h1{
+    font-size: 50px !important;
+    line-height: 48px !important;
+}
+
+.left-container .description{
+    width: 100%;
+    line-height: 24px;
+    font-size: 18px;
+    padding-top:30px ;
+}
+
+.cta{
+    padding-top: 60px;
+    width: 100%;
+}
+    .left-container h1{
+        font-size: 24px;
+        line-height: 30px;
+        padding-block: 20px;
+    }
+
+    .left-container .description{
+        width: 100%;
+        line-height: 20px;
+        font-size: 18px;
+    }
+
+    .cta{
+        width: 100%;
+    }
+
+    .search-box{
+        gap: 20px;
+    }
+
+    .search-box{
+        gap: 20px;
+    }
+
+    .search-box .icon i{
+        height: 45px;
+        width: 45px;
+        font-size: 18px;
+        padding: 12px;
+    }
+
+        .cta p{
+            font-size: 18px;
+        }
+
+    .lock-box{
+        display: flex;
+        align-items: center;
+        padding-block: 20px;
+        gap: 20px;
+    }
+    .lock-box .icon i{
+        height: 45px;
+        width: 45px;
+        font-size: 18px;
+        padding: 12px;
+    }
+
+
+    .h1{
+        font-weight: 500;
+        font-size: 56px;
+    }
+
+    .container .right-container{
+        width: 100%;
+        padding-inline: 30px;
+        padding-block: 60px;
+    }
+
 }
